@@ -1,0 +1,253 @@
+  @media only screen and (max-width: 470px) {
+
+
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .brandlogomobile {
+      width: 310px;
+      height: 102px;
+      margin-top: 2px;
+    }
+
+  }
+
+  @media only screen and (max-width: 710px) {
+
+    .academicscard {
+      height: 130px !important;
+      text-align: center;
+    }
+
+  }
+
+  @media only screen and (min-width: 200px) and (max-width: 992px) {
+      main .maindiv {
+       margin-top: 52px !important;
+    } 
+  }
+
+  @media only screen and (max-width: 992px) {
+
+
+
+      .card-panel.mainoptions2 {
+        margin-top: 0;
+    }
+
+      .footerfa {
+        margin-right: 10px;
+        margin-top: -1px !important;
+        margin-bottom: 10px;
+        float: left !important;
+    }
+
+      .missionvision,
+      .copyright,
+      .footerfa {
+        margin-left: 10px;
+    }
+
+  }
+
+  @media only screen and (min-width: 993px) {
+
+      .mainoptions1,
+      .mainoptions2 {
+        height: 50px !important;
+        padding-top: 10px !important;
+      }
+
+      .mainoptionstext {
+        vertical-align: 4px !important;
+      }
+
+  }
+
+  /*MEDIA QUERIES END*/
+
+  /*==============================*/
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  /*NAVBAR START*/
+
+  .navbar-fixed nav {
+  	height: 105px;
+    background: linear-gradient(to top, #ace596, #f2fcfe);
+  }
+
+  .brandlogo {
+  	width: 350px;
+    height: 100px;
+    margin: 2px 0 0 10px;
+  }
+
+  .navbtn {
+    margin-top: 45px !important;
+    margin-right: 5px !important;
+    padding: 0 1rem;
+    border-radius: 30px;
+    height: 24px;
+    line-height: 24px;
+  }
+
+  .navbtnlast {
+    margin-right: 20px !important;
+  }
+
+  .side-nav {
+    width: 200px;
+    background: #f2fcfe;  /* fallback for old browsers */
+    background: linear-gradient(to top, #ace596, #f2fcfe);
+
+  }
+
+  i.fa.fa-bars {
+    color: black;
+  }
+
+  li > a > .sidenavbtn {
+    margin: 10px 0 !important;
+  }
+
+  .navlowercase {
+    text-transform: lowercase;
+  }
+
+  #dropdown1 {
+    margin-top: 80px;
+    margin-left: 20px;
+    width: 10px;
+  }
+
+  .material-icons.right {
+    color: white;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .dropdown-content {
+    width: 1px !important;
+    /*Makes the width of the dropdown-content 
+    same with the drowpdown-button.*/
+  }
+
+  /*NAVBAR END*/
+
+  /*MAIN START*/
+
+  main {
+    flex: 1 0 auto;
+  }
+  
+  .maindiv {
+    margin-top: 41px;
+  }
+
+  main > div > .row {
+    margin-bottom: 0;
+  }
+
+  .mainoptions1 {
+    margin-top: 20px;
+  }
+
+  .mainoptions2 {
+    margin-top: 20px;
+  }
+
+  .mainoptionsicon,
+  .mainoptionsicon a   {
+    text-align: center;
+    color: white;
+  }
+
+  .mainoptionstext {
+    font-size: 20px;
+    vertical-align: 5px;
+    margin-left: 10px;
+  }
+
+  .academicoptionstext {
+    font-size: 21px;
+    vertical-align: 10px;
+    margin-left: 10px;
+    color: black;
+  }
+
+  .academicscard {
+    height: 100px;
+    background-color: white;
+  }
+
+  .academicscard > a > i,
+  .modal i {
+    color: #33691e;
+    
+  }
+
+  div.collapsible-header > i {
+    color: #33691e;
+  }
+
+  /*MAIN END*/
+
+  /*FOOTER START*/
+
+  footer {
+    max-height: 1px !important;
+  }
+
+  footer .container-fluid {
+    background-color: #282828;
+    color: white;
+  }
+
+  footer div.row {
+    margin-bottom: 0;
+  }
+
+  .footerleft li {
+  	margin-bottom: 5px;
+  }
+
+  .footerleft a {
+    color: white;
+  }
+
+  .footerleft a:hover {
+    color: #7cb342;
+  }
+
+  .footerleft h5 {
+    font-size: 18px;
+  }
+
+  .footerfa {
+  	margin-right: 10px;
+  	margin-top: 20px;
+    float: right;
+    color: #7cb342;
+  }
+
+  .footerfa:hover {
+    color: red;
+  }
+
+  .missionvision > h5 {
+    font-size: 18px;
+  }
+
+  .missionvision > p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+
+  /*FOOTER END*/
